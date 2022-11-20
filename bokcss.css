@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #152040;
+}
+h1{
+    font-size: 36px;    
+}
+a{
+    text-decoration: none;
+    color: #44c2e2;
+    
+}
+p{
+    margin: 15px 0px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    border-width: 0px;
+    width: 90px;
+    cursor: pointer;
+    border: 2px solid #44c2e2;
+    background-color: #44c2e2;
+}
+.reg{
+    margin-left: 10px;
+    color: #152040;
+}
+.login,.seemore{
+    background-color: #152040;
+    border-color: #44c2e2;
+    color: #44c2e2;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.buttons{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 2px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+li{
+    list-style: none;
+    margin-left: 35px;
+}
+ul{
+    display: flex;
+    margin-left: 100px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: white;
+}
+.chosedbook{
+    background-image: url(https://csunshinetoday.csun.edu/wp-content/uploads/Math4-web.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+}
+.listik{
+    color: #44c2e2;
+}
+.mat{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.mat:hover{
+    color: #16678f;
+}
+.matul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+h2{
+    margin: 20px;
+}
+footer{
+    background-color: #205772;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    margin-top:20px ;
+}
